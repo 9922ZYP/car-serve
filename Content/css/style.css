@@ -1,0 +1,161 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .12rem;
+  background-color: #ededed; }
+
+.header {
+  height: .5rem;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  line-height: .5rem; }
+  .header a {
+    font-size: .18rem;
+    color: #9d9d9d;
+    padding-bottom: .12rem; }
+  .header .bg {
+    color: #474747;
+    border-bottom: .02rem solid #474747; }
+  .header i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: .2rem;
+    color: #474747; }
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  .section main {
+    margin-top: .02rem; }
+    .section main .swiper-wrapper, .section main .swiper-slide {
+      width: 100%;
+      height: 1.5rem; }
+      .section main .swiper-wrapper img, .section main .swiper-slide img {
+        width: 100%;
+        height: 100%; }
+    .section main .lists ul {
+      height: 1.05rem;
+      background-color: #fff;
+      display: flex;
+      align-items: center; }
+      .section main .lists ul i {
+        height: .5rem;
+        width: .5rem;
+        margin-bottom: .05rem;
+        border-radius: .2rem;
+        text-align: center;
+        line-height: .5rem;
+        font-size: .2rem;
+        color: #fff; }
+    .section main .nav-img {
+      height: .69rem;
+      background-color: #ecf1f4;
+      text-align: center; }
+      .section main .nav-img img {
+        padding-top: .1rem;
+        padding-bottom: .05rem;
+        width: 95%;
+        height: 95%; }
+    .section main .table-box {
+      background-color: #fff; }
+      .section main .table-box thead th {
+        padding-top: .15rem;
+        padding-bottom: .15rem;
+        font-size: .16rem;
+        border: 0;
+        padding-left: .15rem; }
+      .section main .table-box td {
+        border-right: .01em solid #ccc;
+        padding-top: .2rem;
+        padding-bottom: .2rem; }
+        .section main .table-box td i {
+          display: block;
+          margin-bottom: .1rem;
+          font-size: .18rem; }
+    .section main .scroll, .section main .nav-con {
+      background-color: white;
+      height: 2.2rem; }
+      .section main .scroll .scroll-head, .section main .scroll .nav-con-head, .section main .nav-con .scroll-head, .section main .nav-con .nav-con-head {
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: .1rem;
+        font-size: .18rem;
+        font-weight: bold; }
+        .section main .scroll .scroll-head .scroll-head-right, .section main .scroll .nav-con-head .scroll-head-right, .section main .nav-con .scroll-head .scroll-head-right, .section main .nav-con .nav-con-head .scroll-head-right {
+          display: inline-block; }
+          .section main .scroll .scroll-head .scroll-head-right span, .section main .scroll .nav-con-head .scroll-head-right span, .section main .nav-con .scroll-head .scroll-head-right span, .section main .nav-con .nav-con-head .scroll-head-right span {
+            display: inline-block;
+            width: .2rem;
+            height: .2rem;
+            line-height: .2rem;
+            background-color: #333;
+            margin-left: 5px; }
+      .section main .scroll .scroll-main, .section main .nav-con .scroll-main {
+        overflow: hidden; }
+        .section main .scroll .scroll-main ul, .section main .nav-con .scroll-main ul {
+          width: 200%;
+          padding: .1rem; }
+          .section main .scroll .scroll-main ul li, .section main .nav-con .scroll-main ul li {
+            width: 1.3rem;
+            float: left;
+            border: 1px solid #ccc;
+            padding-top: .1rem;
+            padding-bottom: .15rem;
+            margin-left: 15px; }
+            .section main .scroll .scroll-main ul li img, .section main .nav-con .scroll-main ul li img {
+              width: 102px;
+              height: 56px; }
+            .section main .scroll .scroll-main ul li .price, .section main .nav-con .scroll-main ul li .price {
+              color: #fdaa80; }
+              .section main .scroll .scroll-main ul li .price span, .section main .nav-con .scroll-main ul li .price span {
+                color: #ccc;
+                margin-left: 20px; }
+    .section main .nav-con {
+      height: 1.75rem; }
+    .section main .big-main {
+      background-color: #fff;
+      margin-top: .1rem; }
+      .section main .big-main .nav-con-head {
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: .1rem;
+        font-size: .18rem;
+        font-weight: bold; }
+      .section main .big-main .table img, .section main .big-main .table a, .section main .big-main .table span {
+        display: inline-block;
+        margin-top: .1rem; }
+    .section main .load {
+      padding: 0 15px;
+      padding-bottom: 15px;
+      line-height: 30px;
+      text-align: center;
+      margin: 20px auto;
+      font-size: 16px; }
+
+.footer ul {
+  height: .5rem;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer ul li {
+    text-align: center;
+    font-size: .14rem; }
+    .footer ul li span {
+      color: #9d9d9d; }
+    .footer ul li i {
+      display: block;
+      margin-bottom: .05rem;
+      color: #525252; }
+  .footer ul .bg1 {
+    color: #4485ff; }
+
+/*# sourceMappingURL=style.css.map */

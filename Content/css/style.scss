@@ -1,0 +1,210 @@
+body{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .12rem;
+  background-color: #ededed;
+}
+.header{
+  height: .5rem;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  line-height: .5rem;
+
+  a{
+    font-size: .18rem;
+    color: #9d9d9d;
+    padding-bottom: .12rem;
+  }
+  .bg{
+    color: #474747;
+    border-bottom: .02rem solid #474747;
+  }
+  i{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: .2rem;
+    color: #474747;
+  }
+}
+
+.section{
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  main{
+    margin-top: .02rem;
+      .swiper-wrapper,.swiper-slide{
+        width: 100%;
+        height: 1.5rem;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+
+    .lists{
+      ul{
+        height: 1.05rem;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        i{
+          height: .5rem;
+          width: .5rem;
+          //display: block;
+          margin-bottom: .05rem;
+          border-radius:.2rem;
+          text-align: center;
+          line-height: .5rem;
+          font-size: .2rem;
+          color: #fff;
+        }
+      }
+    }
+    .nav-img{
+      height: .69rem;
+      background-color: #ecf1f4;
+      text-align: center;
+      img{
+        padding-top: .1rem;
+        padding-bottom: .05rem;
+        width: 95%;
+        height:95%;
+      }
+    }
+    .table-box{
+      background-color: #fff;
+      thead{
+        th{
+          padding-top: .15rem;
+          padding-bottom: .15rem;
+          font-size: .16rem;
+          border: 0;
+          padding-left: .15rem;
+        }
+      }
+      td{
+        border-right: .01em solid #ccc;
+          padding-top: .2rem;
+          padding-bottom: .2rem;
+        i{
+            display: block;
+            margin-bottom: .1rem;
+            font-size: .18rem;
+        }
+      }
+    }
+
+    .scroll,.nav-con{
+      background-color: white;
+      height: 2.2rem;
+      .scroll-head,.nav-con-head{
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: .1rem;
+        font-size: .18rem;
+        font-weight: bold;
+        .scroll-head-right{
+          display: inline-block;
+          span{
+            display: inline-block;
+            width: .2rem;
+            height: .2rem;
+            line-height: .2rem;
+            background-color: #333;
+            margin-left: 5px;
+          }
+        }
+      }
+      .scroll-main{
+        //position: fixed;
+        overflow: hidden;
+        ul{
+          width:200%;
+          padding: .1rem;
+          li{
+            width: 1.3rem;
+            float: left;
+            border: 1px solid #ccc;
+            padding-top: .1rem;
+            padding-bottom: .15rem;
+            margin-left: 15px;
+            img{
+              width: 102px;
+              height: 56px;
+            }
+            .price{
+              color: #fdaa80;
+              span{
+                color: #ccc;
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .nav-con{
+        height: 1.75rem;
+      }
+    .big-main{
+      background-color: #fff;
+      margin-top: .1rem;
+      .nav-con-head {
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: .1rem;
+        font-size: .18rem;
+        font-weight: bold;
+      }
+      .table{
+        img,a,span{
+          display: inline-block;
+          margin-top: .1rem;
+        }
+      }
+    }
+    .load{
+      padding:0 15px;
+      padding-bottom:15px;
+      line-height:30px;
+      text-align:center;
+      margin:20px auto;
+      font-size:16px;
+    }
+  }
+}
+
+
+.footer{
+  ul{
+    height: .5rem;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+      text-align: center;
+      font-size: .14rem;
+      span{
+        color: #9d9d9d;
+      }
+      i{
+        display: block;
+        margin-bottom: .05rem;
+        color: #525252;
+      }
+    }
+    .bg1{
+      color: #4485ff;
+    }
+  }
+}
